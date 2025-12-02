@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS - Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="admin-dashboard.html">Admin Dashboard</a>
+    <a href="add-course.html">Add Course</a>
+    <a href="index.html">Logout</a>
+</nav>
+
+<h1 style="text-align:center; margin-top:30px;">Admin Dashboard</h1>
+
+<div class="dashboard">
+
+    <div class="card">
+        <h3>Manage Courses</h3>
+        <p>Add, update, or delete courses.</p>
+        <a href="courses.html"><button>View</button></a>
+    </div>
+
+    <div class="card">
+        <h3>View Students</h3>
+        <p>See list of registered students.</p>
+        <button>Open</button>
+    </div>
+
+    <div class="card">
+        <h3>Messages</h3>
+        <p>Check contact requests.</p>
+        <button>Open</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2025 LMS | Admin Panel</p>
+</footer>
+
+</body>
+</html>
